@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+  <body
+    bgcolor=""
+    text="blue"
+    background="https://ak.picdn.net/shutterstock/videos/1085226278/thumb/1.jpg?ip=x480"
+  >
+    <font size="4" color="red" face="lucida handwriting">
+      <center>
+        <h2>Student Registration Form
+            <!-- <hr align="center" size="5" width="30%" color="black"> -->
+        </h2>
+        
+      </center>
+    </font>
+    
+    <div>
+      <form action="">
+        <table 
+          align="center"
+          bgcolor="lightgreen"
+          width="20%"
+          cellpadding="10%"
+          <!--
+          cellspacing="10%"
+          --
+        >
+          <tbody>
+            <tr>
+              <td>
+                <label for="Name">Name: </label>
+              </td>
+              <td>
+                <input type="text" placeholder="Enter your Name: " size="40" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Father's Name">Father's Name: </label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Enter your Father's Name: "
+                  size="40"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Address">Address: </label>
+              </td>
+              <td>
+                <textarea
+                  name="Address"
+                  id="Address"
+                  cols="30"
+                  rows="3"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Gender: ">Gender: </label>
+              </td>
+              <td>
+                <input
+                  type="radio"
+                  name="Gender"
+                  value="male"
+                  id="Gender: "
+                  required
+                />Male
+                <input
+                  type="radio"
+                  name="Gender"
+                  value="female"
+                  id="Gender: "
+                />Female
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="dOB">Date of Birth:</label>
+              </td>
+              <td>
+                <input type="date" name="dob" id="dob" required size="" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="city">City: </label>
+              </td>
+              <td>
+                <select name="city" id="city" required>
+                  <option value="">Select your city:</option>
+                  <option value="New delhi">New Delhi</option>
+                  <option value="Mumbai">Mumbai</option>
+                  <option value="Patna">Patna</option>
+                  <option value="Goa">Goa</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="District">District: </label>
+              </td>
+              <td>
+                <select name="District" id="District" required>
+                  <option value="">Select your District:</option>
+                  <option value="North Delhi">North Delhi</option>
+                  <option value="South Delhi">South Delhi</option>
+                  <option value="East Delhi">East Delhi</option>
+                  <option value="West Delhi">West Delhi</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Pincode">Pincode</label>
+              </td>
+              <td>
+                <input
+                  type="number" required
+                  placeholder="Enter your Pincode: "
+                  size=""
+                  id="Pincode"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Course: ">Course: </label>
+              </td>
+              <td>
+                <select name="Course" id="Course" required>
+                  <option value="">Select your Course:</option>
+                  <option value="BCA">BCA</option>
+                  <option value="BBA">BBA</option>
+                  <option value="B.TECH">B.TECH</option>
+                  <option value="BJMC">BJMC</option>
+                  <option value="MCA">MCA</option>
+                  <option value="MBA">MBA</option>
+                  <option value="M.TECH">M.TECH</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">Email id: </label>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  size=""
+                  id="email"
+                  required
+                  placeholder="example@gmail.com "
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="mobile">Mobile No.: </label>
+              </td>
+
+              <td>
+                <select name="countrycode" id="countrycode" >
+                  <option value="+91">+91</option>
+                  <option value="+65">+65</option>
+                  <option value="+853">+853</option>
+                  <option value="886">+886</option>
+                </select>
+                <input
+                  type="number"
+                  name="mobile"
+                  required
+                  placeholder="98480*****"
+                  id="mobile"
+                />
+              </td>
+            </tr>
+          </tbody>
+          <tr>
+            <td>
+              <input type="reset" value="Reset Form" />
+            </td>
+            <td>
+              <input type="submit" value="Submit Form" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
